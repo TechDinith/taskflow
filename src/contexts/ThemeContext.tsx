@@ -10,7 +10,7 @@ interface ThemeContextValue {
 
 const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
-const STORAGE_KEY = "my-todo-app:theme";
+const STORAGE_KEY = "taskflow:theme";
 
 function getInitial(): Theme {
   if (typeof window === "undefined") return "dark";

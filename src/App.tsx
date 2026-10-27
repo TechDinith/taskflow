@@ -16,7 +16,7 @@ export default function App() {
               <CheckSquare className="h-5 w-5 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold tracking-tight">Todo</h1>
+              <h1 className="text-2xl font-bold tracking-tight">TaskFlow</h1>
               <p className="text-xs text-[var(--fg-muted)]">Stay organized, one task at a time.</p>
             </div>
           </div>

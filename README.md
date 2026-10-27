@@ -1,4 +1,4 @@
-# Todo — Modern Task Manager
+# TaskFlow — Modern Task Manager
 
 A modernized todo application built with **React 19**, **TypeScript**, **Vite**, **Redux Toolkit**, and **Tailwind CSS v4**.
 

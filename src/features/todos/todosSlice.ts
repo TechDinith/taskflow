@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { TodosState, Todo, Filter, Sort, Priority } from "@/types/todo";
 
-const STORAGE_KEY = "my-todo-app:v1";
+const STORAGE_KEY = "taskflow:v1";
 
 function loadInitial(): TodosState {
   if (typeof window === "undefined") {
